@@ -13,6 +13,7 @@ public class Main {
         System.out.println(board.makeMove(2, 2));
         printField(board.getField());
     }
+    //now first test-branch is removed
     //comment
     static void printField(String[][] field) {
         for (int i = 0; i < 3; i++)

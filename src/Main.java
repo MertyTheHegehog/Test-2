@@ -39,7 +39,7 @@ public class Main {
         printField(board.getField());
 
     }
-
+    //comment
     static void printField(String[][] field) {
         for (int i = 0; i < 3; i++)
             System.out.printf("[%s, %s, %s]", field[i][0], field[i][1], field[i][2]);
